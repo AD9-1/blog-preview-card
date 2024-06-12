@@ -1,0 +1,63 @@
+@use "../styles/global.scss" as *;
+@use "../styles/partials/variables" as *;
+@use "../styles//partials/typography" as*;
+.Blog {
+  background-color: $Yellow;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+
+  &__card {
+    width: 60vw;
+    height: 60vh;
+    background-color: $White;
+    padding: 1.5rem;
+    border: 1px solid $Black;
+    box-shadow: 5px 5px 0px 5px $Black;
+    border-radius: 15px;
+    &__image {
+      img {
+        width: 100%;
+      }
+    }
+    &__info{
+        margin:1.2rem 0;
+        h4{
+            background-color: $Yellow;
+            padding:.4rem .6rem;
+            width:fit-content;
+            border-radius: 3px;
+            margin:1rem 0;
+            font-family: "Figtree-ExtraBold";
+        }
+        .date{
+            margin:.3rem 0;
+            font-size:15px;
+            font-family: "Figtree-SemiBold";
+        }
+        h2{
+            font-family: "Figtree-ExtraBold";
+            margin:1rem 0;
+        }
+        .statement{
+            font-size: 15px;
+            font-family: "Figtree-Variable";
+            color:$Grey;
+        }
+    }
+    &__author{
+        display: flex;
+        align-items: center;
+        gap:10px;
+        margin:2rem 0;
+        img{
+            width:15%;
+        }
+        h4{
+            font-family: "Figtree-ExtraBold";
+            font-size: 14px;
+        }
+    }
+  }
+}

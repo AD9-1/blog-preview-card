@@ -1,5 +1,5 @@
-@use "./typography" as *;
-@use "./variables" as *;
+@use "./_typography" as *;
+@use "./_variables" as *;
 
 
 @mixin mobile {
