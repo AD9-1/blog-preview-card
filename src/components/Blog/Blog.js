@@ -10,12 +10,12 @@ const Blog = () => {
           <img src={Banner} alt="" />
         </div>
         <div className="Blog__card__info">
-          <h4>learning</h4>
+          <h4>Learning</h4>
           <p className="date">Published 21 Dec 2023</p>
           <h2>HTML & CSS foundations</h2>
           <p className="statement">
-            These languages are backbone of every website,defining
-            structure,content, and presentation
+            These languages are backbone of every website, defining structure,
+            content, and presentation
           </p>
         </div>
         <div className="Blog__card__author">

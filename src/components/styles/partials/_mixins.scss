@@ -1,15 +1,14 @@
 @use "./_typography" as *;
 @use "./_variables" as *;
 
-
 @mixin mobile {
-    @media (min-width: $mobile) {
-      @content;
-    }
+  @media (min-width: $mobile) {
+    @content;
   }
+}
 
-  @mixin desktop {
-    @media (min-width: $desktop) {
-      @content;
-    }
+@mixin desktop {
+  @media (min-width: 780px) and (max-width: $desktop) {
+    @content;
   }
+}
