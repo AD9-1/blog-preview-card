@@ -1,22 +1,6 @@
 # Frontend Mentor - Blog preview card solution
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Overview
 
@@ -34,7 +18,6 @@ Users should be able to:
 ![desktop](<BLOG DESKTOP.PNG>)
 ![hover](<blog hover and active state.png.jpg>)
 
-
 ### Links
 
 - Solution URL: (https://github.com/AD9-1/blog-preview-card)
@@ -48,15 +31,11 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
--[SaSS](https://sass-lang.com/) - CSS extension language
-
-
+- [React](https://reactjs.org/) - JS library -[SaSS](https://sass-lang.com/) - CSS extension language
 
 ### What I learned
 
 Positioning, Styling, Hover effects, and responsiveness were the main things I learned.
-
 
 ## Author
 
@@ -65,9 +44,6 @@ Positioning, Styling, Hover effects, and responsiveness were the main things I l
 - Frontend Mentor - [@sehajwadhwa](https://www.frontendmentor.io/profile/sehajwadhwa)
 - Frontend Mentor - [@AD9-1](https://www.frontendmentor.io/profile/AD9-1)
 
-
-
 ## Acknowledgments
 
 Collaborative Project : Aparna Dhara & Sehaj Wadhwa
-
